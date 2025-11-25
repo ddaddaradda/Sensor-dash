@@ -1,0 +1,73 @@
+# 환경 변수 파일 (민감 정보) - 절대 커밋하지 마세요!
+.env
+.env.local
+.env.*.local
+
+# 민감한 설정 파일 (백업 폴더만 커밋)
+config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# uv
+.uv/
+
+# Virtual Environment (uv)
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그
+*.log
+
+# 데이터베이스
+*.db
+*.sqlite
+
+# 임시 파일
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# SSL 인증서
+*.pem
+*.crt
+*.key
+
+# 백업 파일 및 폴더
+backup/
+*.bak
+*.backup
