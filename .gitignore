@@ -2,7 +2,8 @@
 .env
 .env.local
 .env.*.local
-
+.claude/
+.serena/
 # 민감한 설정 파일 (백업 폴더만 커밋)
 config.py
 
