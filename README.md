@@ -202,19 +202,3 @@ MONGO_SSL_CERT_PATH=/path/to/global-bundle.pem
 ls -la .env
 ```
 
-## 📄 라이선스
-
-MIT License
-
-## 👥 기여자
-
-- 프로젝트 리팩토링: Claude (Anthropic)
-
-## 📝 변경 이력
-
-### v1.0.0 (2025-01-25)
-- ✨ 프로젝트 전체 리팩토링
-- 🔐 환경 변수 기반 설정 관리
-- 📦 uv 프로젝트 전환
-- 🎨 Strategy Pattern 적용
-- 📚 코드 중복 97% 제거
